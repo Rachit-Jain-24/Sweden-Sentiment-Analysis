@@ -1,0 +1,63 @@
+Sentiment Analysis Model Training Summary
+========================================
+
+Best model: random_forest
+Best model metrics: {'accuracy': 0.782608695652174, 'precision': 0.7936507936507936, 'recall': 0.9615384615384616, 'f1_score': 0.8695652173913043, 'cv_mean_accuracy': 0.9203937702027624, 'cv_std_accuracy': 0.059254000823964405}
+
+All models performance:
+- logistic_regression:
+  accuracy: 0.7536231884057971
+  precision: 0.8181818181818182
+  recall: 0.8653846153846154
+  f1_score: 0.8411214953271028
+  cv_mean_accuracy: 0.9324125771378196
+  cv_std_accuracy: 0.030973842122953538
+
+- decision_tree:
+  accuracy: 0.7101449275362319
+  precision: 0.82
+  recall: 0.7884615384615384
+  f1_score: 0.803921568627451
+  cv_mean_accuracy: 0.8239200705260064
+  cv_std_accuracy: 0.08720523984414996
+
+- random_forest:
+  accuracy: 0.782608695652174
+  precision: 0.7936507936507936
+  recall: 0.9615384615384616
+  f1_score: 0.8695652173913043
+  cv_mean_accuracy: 0.9203937702027624
+  cv_std_accuracy: 0.059254000823964405
+
+- gradient_boosting:
+  accuracy: 0.7391304347826086
+  precision: 0.7931034482758621
+  recall: 0.8846153846153846
+  f1_score: 0.8363636363636363
+  cv_mean_accuracy: 0.8793711431090214
+  cv_std_accuracy: 0.0890903723741959
+
+- naive_bayes:
+  accuracy: 0.6811594202898551
+  precision: 0.7777777777777778
+  recall: 0.8076923076923077
+  f1_score: 0.7924528301886793
+  cv_mean_accuracy: 0.9009697325888922
+  cv_std_accuracy: 0.033548793714986966
+
+- knn:
+  accuracy: 0.6956521739130435
+  precision: 0.7719298245614035
+  recall: 0.8461538461538461
+  f1_score: 0.8073394495412844
+  cv_mean_accuracy: 0.6933588010578902
+  cv_std_accuracy: 0.10789677090929176
+
+- voting_ensemble:
+  accuracy: 0.782608695652174
+  precision: 0.8245614035087719
+  recall: 0.9038461538461539
+  f1_score: 0.8623853211009175
+  cv_mean_accuracy: 0.8987070232148107
+  cv_std_accuracy: 0.07041876458013714
+
