@@ -41,6 +41,10 @@ for sentence in sentences:
 
 # Step 5: Create a DataFrame (✔️ Instruction 6)
 df_sentiment = pd.DataFrame(sentence_data, columns=['sentence', 'sentiment'])
+
+# Count the number of positive, negative, and neutral sentences
+print(df_sentiment['sentiment'].value_counts())
+
 df_sentiment.to_csv("data/sentences_sentiment.csv", index=False)
 
 # Step 6: Word tokenization (✔️ Instruction 7)
