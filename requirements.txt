@@ -1,34 +1,15 @@
-# Core ML libraries
-scikit-learn==1.3.2
-imbalanced-learn==0.11.0
+# Requirements for Sweden Sentiment Analysis Project
 
-# NLP libraries
-nltk==3.8.1
-textblob==0.17.1
-spacy==3.7.2
-
-# Data processing
-pandas==2.1.3
-numpy==1.26.2
-
-# Web app
-streamlit==1.28.2
-
-# Visualization
-matplotlib==3.8.2
-seaborn==0.13.0
-wordcloud==1.9.3  # Updated version that supports Python 3.12
-plotly==5.18.0
-
-# Utilities
-joblib==1.3.2
-tqdm==4.66.1
-
-# Web scraping
-beautifulsoup4==4.12.2
-requests==2.31.0
-
-# Optional dependencies
-scikit-optimize==0.9.0
-xgboost==2.0.2
-lightgbm==4.1.0
+streamlit
+scikit-learn
+pandas
+numpy
+nltk
+joblib
+matplotlib
+python-csv
+wordcloud
+requests
+beautifulsoup4
+spacy
+json
