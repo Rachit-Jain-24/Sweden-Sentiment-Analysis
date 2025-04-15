@@ -1,40 +1,39 @@
 # Requirements for Sweden Sentiment Analysis Project
 
 # Web framework for building an interactive app
-streamlit
+streamlit==1.14.0
 
 # Machine learning library for training models
-scikit-learn
+scikit-learn==1.0.2
 
 # Data manipulation and numerical operations
-pandas
-numpy
+pandas==1.3.5
+numpy==1.21.6
 
 # Text preprocessing and tokenization
-nltk
+nltk==3.7
 
 # For saving and loading trained models
-joblib
+joblib==1.1.0
 
 # For data visualization
-matplotlib
+matplotlib==3.5.1
 
 # For creating word clouds
-wordcloud
+wordcloud==1.8.1
 
 # For handling HTTP requests (if needed for web scraping)
-requests
+requests==2.27.1
 
 # For parsing HTML content (if needed for web scraping)
-beautifulsoup4
+beautifulsoup4==4.11.0
 
 # Natural Language Processing library (for advanced text processing)
-spacy
+spacy==3.3.1
 
 # To handle CSV files
-python-csv
+python-csv==1.0.6
 
 # Ensure consistent results across runs
-python  # Specify the Python version you are using
-
+python==3.8.10  # Specify the Python version you are using
 lime
