@@ -40,8 +40,4 @@ json==3.2.0
 # To ensure consistent results across runs
 python==3.8.10  # Specify the Python version you are using
 
-# Optional: For Docker (if you decide to containerize your application)
-docker==5.0.3
-
-# Optional: For virtual environments (if you decide to use them)
-virtualenv==20.13.0
+lime
